@@ -1,1 +1,3 @@
-# ITU-SYST-F2018-Lecture_8
+# ITU-SYST-F2018
+
+Eksempler til Browser Internals/npm/Webpack.

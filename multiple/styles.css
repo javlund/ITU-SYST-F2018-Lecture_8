@@ -1,0 +1,12 @@
+.logo img {
+    margin: 0 auto;
+    display: block;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    padding-left: 1rem;
+}
