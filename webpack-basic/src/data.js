@@ -16,4 +16,4 @@ const varer = [
     }
 ];
 
-module.exports = varer;
+export default varer;

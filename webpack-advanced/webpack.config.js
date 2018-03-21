@@ -3,8 +3,9 @@ const path = require('path');
 module.exports = {
     output: {
         filename: 'main.js',
-        path: path.resolve(__dirname, 'dist')
+        publicPath: path.resolve(__dirname, 'dist')
     },
+    devtool: 'inline-source-map',
     module: {
         rules: [
             {
@@ -19,7 +20,8 @@ module.exports = {
                 use: [{
                     loader: 'file-loader',
                     options: {
-                        name: 'dist/images/[name]-[hash].[ext]'
+                        name: '[name]-[hash].[ext]',
+                        outputPath: '/images/'
                     }
                 }],
             }

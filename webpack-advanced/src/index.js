@@ -1,4 +1,4 @@
-import sortBy from 'lodash/sortBy';
+import sortBy from 'lodash.sortby';
 import data from './data';
 import { createCell, createRow, createHeaderRow } from './table-functions';
 import './styles/styles.css';
